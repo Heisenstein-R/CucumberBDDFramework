@@ -15,6 +15,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue = {"StepDefinition"},
 		plugin = {"pretty", "html:Reports\\report1.html"},
 		dryRun = false
+//		monochrome = true
 		)
 
 public class RunnerofDataDrivenofContacts {	
