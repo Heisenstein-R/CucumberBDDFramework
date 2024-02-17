@@ -97,6 +97,7 @@ public class MapsWithDeals {
 			actions.moveToElement(driver.findElement(By.xpath("//i[@class = 'home icon']")));
 			driver.findElement(By.xpath("//span[text() = 'Deals']")).click();
 			
+			
 		}
 		
 	}

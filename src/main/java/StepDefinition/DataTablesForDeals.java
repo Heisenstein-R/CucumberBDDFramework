@@ -24,6 +24,7 @@ public class DataTablesForDeals {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://freecrm.com/");
+		
 
 	}
 
