@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		
 		stepNotifications = true,
-		features = "C:\\Users\\91938\\eclipse-workspace\\CucumberBDDFramework\\src\\main\\java\\Features\\DataTablesForDeals.feature",
+		features = "C:\\Users\\91938\\eclipse-workspace\\CucumberBDDFramework\\src\\main\\java\\Features\\mapdeals.feature",
 		glue = {"StepDefinition"},
 		plugin = {"pretty", "html:Reports\\report1.html"},
 		dryRun = false
