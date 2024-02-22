@@ -8,10 +8,13 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		
 		stepNotifications = true,
-		features = "C:\\Users\\91938\\eclipse-workspace\\CucumberBDDFramework\\src\\main\\java\\Features\\mapdeals.feature",
+		features = "C:\\Users\\91938\\eclipse-workspace\\CucumberBDDFramework\\src\\main\\java\\Features\\tags.feature",
 		glue = {"StepDefinition"},
 		plugin = {"pretty", "html:Reports\\report1.html"},
-		dryRun = false
+//		tags = "@Regression and @SmokeTest" , 
+//		tags = "not @Regression" ,
+		tags = "not @E2E" ,
+		dryRun = true
 //		monochrome = true
 		)
 
