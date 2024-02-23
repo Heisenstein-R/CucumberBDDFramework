@@ -14,7 +14,8 @@ import io.cucumber.junit.CucumberOptions;
 		features = "C:\\Users\\91938\\eclipse-workspace\\CucumberBDDFramework\\src\\main\\java\\Features\\contactsDD.feature",
 		glue = {"StepDefinition"},
 		plugin = {"pretty", "html:Reports\\report1.html"},
-		dryRun = false
+        monochrome = true,
+		dryRun = true
 		
 //		monochrome = true
 		
